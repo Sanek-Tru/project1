@@ -1,0 +1,32 @@
+.slider{
+    width:100%;
+    height:500px;
+    position: relative;
+    .slide{
+        width: 100%;
+        height: 100%;
+        position: absolute;  
+    }
+    .slide_image2,.slide_image3{
+        display: none;
+    }
+    
+    .wrapper_arrow{
+        width: 70%;
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 250px;
+        margin-left: 15%;
+        .arrow_image_left{
+            cursor: pointer;
+        } 
+        .arrow_image_right{
+            cursor: pointer;
+        } 
+    }
+   
+    
+}
+
