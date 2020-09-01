@@ -1,6 +1,15 @@
 import './scss/header.scss'
-import './scss/navigation-menu.scss'
+import './scss/navigation_menu.scss'
 import './scss/slider.scss'
 import './js/slider.js'
+import './scss/navigation_panel.scss'
+import './scss/catalog_products.scss'
+import './scss/accordion.scss'
+import './scss/description.scss'
+import './scss/footer.scss'
+import './js/popup.js'
+import './js/accordion.js'
+import './scss/popup.scss'
+import './js/ tooltip.js'
 
 

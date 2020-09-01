@@ -5,9 +5,36 @@
   <meta charset="UTF-8">
   <title>First project</title>
   <link rel="shortcut icon" href="../src/images/favicon.png" type="image/x-icon">
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  
 </head>
 
 <body>
+  <div class='popup_background js_popup_background'></div>
+  <div class = 'popup_window js_popup_window'>
+    <div class = 'button_close_popup js-button_close_popup'>
+      <img class = 'button_close' src="../src/images/button_close.png" alt="">
+    </div>
+    <div class='wrapper_content_popup'>
+      <div class = 'title_popup'>ОБРАТНАЯ СВЯЗЬ</div>
+      <div class='title_input_popup'>Ваше имя*</div>
+      <input class = 'input_popup js_input_popup' type="text">
+      <div class='title_input_popup'>Телефон*</div>
+      <input  class ='input_popup phone js_input_popup' type="text">
+      <script src='../src/js/jquery.maskedinput.min.js'></script>
+      <script>
+        $(document).ready(function(){
+        $(".phone").mask("+7 (999) 999-99-99");
+      });
+      </script>
+      <div class='title_input_popup'>Email*</div>
+      <input class = 'input_popup js_input_popup' type="text">
+      <div class='title_input_popup'>Сообщение*</div>
+      <textarea  class = 'input_popup_message'  cols="30" rows="10"></textarea>
+      <button class = 'send js_send'> ОТПРАВИТЬ </button>
+    </div>
+    
+  </div>
 
   <header class = 'head'>
     <div class = 'head_content'>
@@ -15,7 +42,7 @@
       <div class = 'feedback'>
         <div class = 'number'> +7(499) 777-77-77 </div>
         <div class = 'number'> +7(499) 777-77-77</div>
-        <div class = 'button_feedback'> Обратная связь </div>
+        <div class = 'button_feedback  js_open_button'> Обратная связь </div>
       </div>
     </div>
   </header>
@@ -41,6 +68,154 @@
     </div>
     <img class = 'slide_image1 slide js_slide' src="../src/images/Slide1.png" alt="">
     <img class = 'slide_image2 slide js_slide' src="../src/images/Slide2.png" alt="">
+  </div>
+
+
+  <div class = 'navigation_panel'>
+    <div class = 'panel_section'>Главная</div>
+    <div class = 'panel_section'>/</div>
+    <div class = 'panel_section'>Каталог</div>
+    <div class = 'panel_section'>/</div>
+    <div class = 'panel_section'>Бытовая техника</div>
+  </div>
+
+
+
+  <div class = 'content'>
+      <div class="accordion">
+        <div class="accordion-item js-accordion-title">
+          <div class="title">Автомобили</div>
+          <li class="subtitle">Мерседес</li>
+          <li class="subtitle">БМВ</li>
+          <li class="subtitle">Ауди</li>
+          <li class="subtitle">Lada</li>
+        </div>
+        <div class="accordion-item js-accordion-title">
+          <div class="title">Бытовая техника</div>
+          <li class="subtitle">Микроволновки</li>
+          <li class="subtitle">Холодильники</li>
+          <li class="subtitle">Посудомоечные машины</li>
+          <li class="subtitle">Чайники</li>
+        </div>
+        <div class="accordion-item js-accordion-title">
+          <div class="title">Мобильная техника</div>
+          <li class="subtitle">Микроволновки</li>
+          <li class="subtitle">Холодильники</li>
+          <li class="subtitle">Посудомоечные машины</li>
+          <li class="subtitle">Чайники</li>
+        </div>
+        <div class="accordion-item js-accordion-title">
+          <div class="title">Компьютеры</div>
+          <li class="subtitle">Микроволновки</li>
+          <li class="subtitle">Холодильники</li>
+          <li class="subtitle">Посудомоечные машины</li>
+          <li class="subtitle">Чайники</li>
+        </div>
+        <div class="accordion-item js-accordion-title">
+          <div class="title">Одежда</div>
+          <li class="subtitle">Микроволновки</li>
+          <li class="subtitle">Холодильники</li>
+          <li class="subtitle">Посудомоечные машины</li>
+          <li class="subtitle">Чайники</li>
+        </div>
+        <div class="accordion-item js-accordion-title">
+          <div class="title">Недвижимость</div>
+          <li class="subtitle" >Микроволновки</li>
+          <li class="subtitle">Холодильники</li>
+          <li  class="subtitle">Посудомоечные машины</li>
+          <li class="subtitle">Чайники</li>
+        </div>
+        <div class = 'excel_price'>
+          <img class = 'excel_image' src = "../src/images/excel.png" alt="">
+          <div class = 'price_list'> Прайс-лист </div>
+        </div>
+      </div>
+
+      <div class = 'products_cards'>
+        <div class= 'product_card'>
+          <img src = '../src/images/photo-product.png' alt="">
+          <div class = 'description-product'> Самый клевый чайник, который надо купить!</div>
+          <div class = 'price-basket'>
+            <div>1 900 р.</div>
+            <img src="../src/images/basket.png" alt="">
+          </div>
+        </div>
+        <div class= 'product_card'>
+          <img src = '../src/images/photo-product.png' alt="">
+          <div class = 'description-product'> Самый клевый чайник, который надо купить! </div>
+          <div class = 'price-basket'>
+            <div>1 900 р.</div>
+            <img src="../src/images/basket.png" alt="">
+          </div>
+        </div>
+        <div class= 'product_card'>
+          <img src = '../src/images/photo-product.png' alt="">
+          <div class = 'description-product'> Самый клевый чайник, который надо купить!</div>
+          <div class = 'price-basket'>
+            <div>1 900 р.</div>
+            <img src="../src/images/basket.png" alt="">
+          </div>
+        </div>
+        <div class= 'product_card'>
+          <img src = '../src/images/photo-product.png' alt="">
+          <div class = 'description-product'> Самый клевый чайник, который надо купить! </div>
+          <div class = 'price-basket'>
+            <div>1 900 р.</div>
+            <img src="../src/images/basket.png" alt="">
+          </div>
+        </div>
+        <div class = 'product_card'>
+          <img src = '../src/images/photo-product.png' alt="">
+          <div class = 'description-product'> Самый клевый чайник, который надо купить! </div>
+          <div class = 'price-basket'>
+            <div>1 900 р.</div>
+            <img src="../src/images/basket.png" alt="">
+          </div>
+        </div>
+
+
+        <div class = 'pagination'>
+          <div class = 'number_page one'>1</div>
+          <div class = 'number_page two'>2</div>
+          <div class = 'number_page three'>3</div>
+          <div class = 'number_page four'>4</div>
+          <div class = 'number_page five'>5</div>
+          <div class = 'number_page six'>6</div>
+          <div class = 'number_page seven'>7</div>
+        </div>
+
+        <div class = 'description_company'>
+          <div class = 'description'>Компания «Пиксель Плюс» существует более 6 лет, за это время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде.характерные для этого жанра мотивы: неразделённой любви, ухода молодости, угасания души. </div>
+          <div class = 'description'> Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем московском офисе. </div>
+        </div>
+
+        
+      </div>
+  </div>
+
+
+  
+
+  <footer class = 'footer'>
+    <div class = 'wrapper_information'>
+      <div class = 'footer_information'> © 2012–2013 ЗАО «Компания»<br>info@name.ru</div>
+    <div class = 'footer_menu'>
+      <div class = 'footer_menu_section'>Главная</div>
+      <div class = 'footer_menu_section'>Каталог</div>
+      <div class = 'footer_menu_section'>Доставка и оплата</div>
+      <div class = 'footer_menu_section'>Прайс-лист</div>
+      <div class = 'footer_menu_section'>Контакты</div>
+    </div>
+    <div class = 'footer_logo'>
+      <img class = 'footer_logo_company' src="../src/images/company.png" alt="">
+      <div class = 'footer_information'> <span class = 'development_line'>Разработка сайта</span> — <br> компания «Пиксель Плюс»</div>
+    </div>
+    </div>
+    
+  </footer>
+
+
+    
   </div>
 </body>
 

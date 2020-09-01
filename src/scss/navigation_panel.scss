@@ -1,0 +1,14 @@
+.navigation_panel{
+    font-size: 14px;
+    color: #767676;
+    width: 260px;
+    display: flex;
+    margin-left: 210px;
+    .panel_section{
+        margin: 5px;
+        cursor: pointer;
+    }
+    .panel_section:hover{
+        text-decoration: underline;
+    }
+}

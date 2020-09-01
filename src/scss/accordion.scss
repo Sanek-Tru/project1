@@ -1,0 +1,45 @@
+.content{
+    width:100%;
+    margin-left: 220px;  
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+   .accordion{
+       height: 270px;
+       width:220px;
+       
+       .accordion-item{
+           width: 100%;
+           height: 22px;
+           overflow: hidden;
+           .title{
+               color:#767676;
+               font-family: "Open Sans Condensed Light";
+               font-size: 18px;
+               cursor: pointer;
+           }
+           .title:hover{
+            text-decoration:underline;
+           }
+           .subtitle{
+               color:#767676;
+               font-family: "Open Sans Condensed Light";
+               font-size: 14px;  
+               padding-left:15px;
+               cursor: pointer;
+           }
+           .subtitle:hover{
+            text-decoration:underline;
+           }
+       }
+       .excel_price{
+           margin-top: 200px;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           position: fixed;
+
+       }
+   }
+ 
+}

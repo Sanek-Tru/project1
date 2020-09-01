@@ -1,0 +1,27 @@
+@font-face {
+    font-family:"Open Sans Condensed Light";
+    src: url("/src/fonts/Open Sans Condensed Light/OpenSans-CondLight.eot");
+    src: url("/src/fonts/Open Sans Condensed Light/OpenSans-CondLight.eot?#iefix") format('embedded-opentype'),
+    url("/src/fonts/Open Sans Condensed Light/OpenSans-CondLight.woff") format('woff'),
+    url("/src/fonts/Open Sans Condensed Light/OpenSans-CondLight.ttf") format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family: "PTSansRegular";
+    src: url("/src/fonts/PTSansRegular/PTSansRegular.eot");
+    src: url("/src/fonts/PTSansRegular/PTSansRegular.eot?#iefix")format('embedded-opentype'),
+    url("/src/fonts/PTSansRegular/PTSansRegular.woff") format('woff'),
+    url("/src/fonts/PTSansRegular/PTSansRegular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PTSansBold";
+    src: url("/src/fonts/PTSansBold/PTSansBold.eot");
+    src: url("/src/fonts/PTSansBold/PTSansBold.eot?#iefix")format('embedded-opentype'),
+    url("/src/fonts/PTSansBold/PTSansBold.woff") format('woff'),
+    url("/src/fonts/PTSansBold/PTSansBold.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
